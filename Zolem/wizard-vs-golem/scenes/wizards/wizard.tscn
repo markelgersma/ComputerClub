@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfudqlwhk82qo"]
+
+[ext_resource type="Script" uid="uid://c0fogqverobdm" path="res://scripts/wizard.gd" id="1_tav45"]
+
+[node name="Wizard" type="Node2D"]
+script = ExtResource("1_tav45")
+
+[node name="Attack Timer" type="Timer" parent="."]

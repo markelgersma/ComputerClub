@@ -1,0 +1,334 @@
+[gd_scene load_steps=2 format=3 uid="uid://be14i10buvddn"]
+
+[ext_resource type="Script" uid="uid://d3apadb3ed0i4" path="res://scripts/potential.gd" id="1_kibop"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_kibop")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_left = 272.175
+offset_top = 344.0
+offset_right = 1452.18
+offset_bottom = 1080.0
+columns = 8
+
+[node name="Button1" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 1
+metadata/row = 1
+
+[node name="Button2" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 2
+metadata/row = 1
+
+[node name="Button3" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 3
+metadata/row = 1
+
+[node name="Button4" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 4
+metadata/row = 1
+
+[node name="Button5" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 5
+metadata/row = 1
+
+[node name="Button6" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 6
+metadata/row = 1
+
+[node name="Button7" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 7
+metadata/row = 1
+
+[node name="Button8" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 8
+metadata/row = 1
+
+[node name="Button9" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 1
+metadata/row = 2
+
+[node name="Button10" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 2
+metadata/row = 2
+
+[node name="Button11" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 3
+metadata/row = 2
+
+[node name="Button12" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 4
+metadata/row = 2
+
+[node name="Button13" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 5
+metadata/row = 2
+
+[node name="Button14" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 6
+metadata/row = 2
+
+[node name="Button15" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 7
+metadata/row = 2
+
+[node name="Button16" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 8
+metadata/row = 2
+
+[node name="Button17" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 1
+metadata/row = 3
+
+[node name="Button18" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 2
+metadata/row = 3
+
+[node name="Button19" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 3
+metadata/row = 3
+
+[node name="Button20" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 4
+metadata/row = 3
+
+[node name="Button21" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 5
+metadata/row = 3
+
+[node name="Button22" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 6
+metadata/row = 3
+
+[node name="Button23" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 7
+metadata/row = 3
+
+[node name="Button24" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 8
+metadata/row = 3
+
+[node name="Button25" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 1
+metadata/row = 4
+
+[node name="Button26" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 2
+metadata/row = 4
+
+[node name="Button27" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 3
+metadata/row = 4
+
+[node name="Button28" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 4
+metadata/row = 4
+
+[node name="Button29" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 5
+metadata/row = 4
+
+[node name="Button30" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 6
+metadata/row = 4
+
+[node name="Button31" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 7
+metadata/row = 4
+
+[node name="Button32" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 8
+metadata/row = 4
+
+[node name="Button33" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 1
+metadata/row = 5
+
+[node name="Button34" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 2
+metadata/row = 5
+
+[node name="Button35" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 3
+metadata/row = 5
+
+[node name="Button36" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 4
+metadata/row = 5
+
+[node name="Button37" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 5
+metadata/row = 5
+
+[node name="Button38" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 6
+metadata/row = 5
+
+[node name="Button39" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 7
+metadata/row = 5
+
+[node name="Button40" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+text = "plaotn"
+metadata/column = 8
+metadata/row = 5
+
+[connection signal="pressed" from="GridContainer/Button1" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button2" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button3" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button4" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button5" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button6" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button7" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button8" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button9" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button10" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button11" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button12" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button13" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button14" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button15" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button16" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button17" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button18" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button19" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button20" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button21" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button22" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button23" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button24" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button25" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button26" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button27" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button28" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button29" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button30" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button31" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button32" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button33" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button34" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button35" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button36" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button37" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button38" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button39" to="." method="_button_pressed"]
+[connection signal="pressed" from="GridContainer/Button40" to="." method="_button_pressed"]
