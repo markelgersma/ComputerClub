@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://dg25suwplij3"]
+
+[ext_resource type="Script" uid="uid://b7aarim5gjq11" path="res://scripts/golem.gd" id="1_eyr6t"]
+[ext_resource type="Texture2D" uid="uid://kd6gd62qb6f5" path="res://assets/icon.svg" id="1_yjvqr"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eyr6t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_yjvqr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yjvqr"]
+radius = 64.0
+
+[node name="Golem" type="Area2D"]
+collision_layer = 2
+script = ExtResource("1_eyr6t")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_eyr6t")
+
+[node name="Collision Shape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_yjvqr")

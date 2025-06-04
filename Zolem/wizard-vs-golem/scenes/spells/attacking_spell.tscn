@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://bku0cmbulfk7m"]
+
+[ext_resource type="Script" uid="uid://magodtbcthen" path="res://scripts/attacking_spell.gd" id="1_thodm"]
+[ext_resource type="Texture2D" uid="uid://kd6gd62qb6f5" path="res://assets/icon.svg" id="2_tvcky"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tvcky"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tvcky")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_w88md"]
+radius = 64.0
+
+[node name="Attacking Spell" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_thodm")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_tvcky")
+
+[node name="Collision Shape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_w88md")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

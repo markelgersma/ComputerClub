@@ -25,6 +25,11 @@ window/stretch/mode="viewport"
 
 project/assembly_name="Wizard Vs Golem"
 
+[layer_names]
+
+2d_physics/layer_1="Wizards"
+2d_physics/layer_2="Golems"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
