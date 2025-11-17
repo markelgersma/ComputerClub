@@ -1,13 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://dg25suwplij3"]
+[gd_scene load_steps=6 format=3 uid="uid://dg25suwplij3"]
 
 [ext_resource type="Script" uid="uid://b7aarim5gjq11" path="res://scripts/golem.gd" id="1_eyr6t"]
 [ext_resource type="Texture2D" uid="uid://kd6gd62qb6f5" path="res://assets/icon.svg" id="1_yjvqr"]
+[ext_resource type="Texture2D" uid="uid://bqc87pq4aw6n" path="res://assets/fireGolem.svg" id="3_63l0s"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_eyr6t"]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_yjvqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_63l0s")
 }],
 "loop": true,
 "name": &"default",
@@ -15,7 +19,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_yjvqr"]
-radius = 64.0
+radius = 82.006096
 
 [node name="Golem" type="Area2D"]
 collision_layer = 2
@@ -25,4 +29,10 @@ script = ExtResource("1_eyr6t")
 sprite_frames = SubResource("SpriteFrames_eyr6t")
 
 [node name="Collision Shape" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 2)
 shape = SubResource("CircleShape2D_yjvqr")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(15, 70)
+texture = ExtResource("3_63l0s")

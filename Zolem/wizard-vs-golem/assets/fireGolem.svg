@@ -1,0 +1,67 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="fireBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffea00"></stop>
+      <stop offset="50%" stop-color="#ff7a00"></stop>
+      <stop offset="100%" stop-color="#d43200"></stop>
+    </linearGradient>
+
+    <linearGradient id="fireGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,200,50,0.8)"></stop>
+      <stop offset="100%" stop-color="rgba(255,80,0,0.2)"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer glow -->
+  <ellipse cx="150" cy="170" rx="95" ry="120" fill="url(#fireGlow)"></ellipse>
+
+  <!-- Body -->
+  <path d="M140 60
+           C120 80 110 120 115 160
+           C120 200 150 220 170 210
+           C200 190 205 150 195 120
+           C185 90 160 60 140 60z" fill="url(#fireBody)" stroke="#a82800" stroke-width="3"></path>
+
+  <!-- Head (facing left) -->
+  <path d="M145 40
+           C120 45 110 75 120 95
+           C135 115 165 115 175 95
+           C185 75 170 40 145 40z" fill="url(#fireBody)" stroke="#a82800" stroke-width="3"></path>
+
+  <!-- Eyes -->
+  <ellipse cx="135" cy="75" rx="6" ry="8" fill="#fff"></ellipse>
+  <ellipse cx="155" cy="75" rx="2" ry="4" fill="#fff" opacity="0.6"></ellipse>
+
+  <!-- Left Arm (front, moving forward in walk) -->
+  <path d="M110 130
+           C90 140 80 165 95 185
+           C110 205 130 200 135 190
+           C125 175 125 150 110 130z" fill="url(#fireBody)" stroke="#a82800" stroke-width="3"></path>
+
+  <!-- Right Arm (back) -->
+  <path d="M185 135
+           C195 150 200 165 190 185
+           C180 205 160 205 155 195
+           C165 175 170 150 185 135z" fill="url(#fireBody)" stroke="#a82800" stroke-width="3" opacity="0.8"></path>
+
+  <!-- Left Leg (forward step) -->
+  <path d="M135 210
+           C120 230 115 255 130 270
+           L150 270
+           C150 245 150 225 145 210z" fill="url(#fireBody)" stroke="#a82800" stroke-width="3"></path>
+
+  <!-- Right Leg (back) -->
+  <path d="M165 210
+           C170 230 180 245 175 270
+           L160 270
+           C158 250 158 230 165 210z" fill="url(#fireBody)" stroke="#a82800" stroke-width="3" opacity="0.8"></path>
+
+  <!-- Flame tips on head -->
+  <path d="M140 40
+           C135 25 150 10 160 25
+           C155 8 180 5 175 35
+           C170 20 150 22 140 40z" fill="#ff7a00" stroke="#a82800" stroke-width="2"></path>
+
+</svg>
