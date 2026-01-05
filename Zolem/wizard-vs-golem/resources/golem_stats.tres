@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Golem_Stats" load_steps=2 format=3 uid="uid://305v0c2gi8jr"]
+
+[sub_resource type="GDScript" id="GDScript_yoiey"]
+script/source = "class_name Golem_Stats
+
+@export_category(\"Base Stats\")
+@export var name : String
+@export var damage : float
+@export var health : float
+@export_group(\"Element Effectiveness\")
+@export var damage_elements : Array[Enums.Element]
+@export var resistances : Array[Enums.Element]
+@export var weaknesses : Array[Enums.Element]
+@export_category(\"Weather Scalings\")
+@export_group(\"Temperature\")
+@export var health_scaling : Curve
+@export var damage_scaling : Curve
+@export var speed_scaling : Curve
+@export var spawn_ratio : Curve
+"
+
+[resource]
+script = SubResource("GDScript_yoiey")
