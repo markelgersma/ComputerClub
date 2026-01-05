@@ -14,4 +14,4 @@ func _physics_process(delta: float) -> void:
 		print("Creating new golem.")
 		var new_golem = ALL_GOLEMS.pick_random().instantiate() # Instantiates a new golem. 
 		new_golem.global_position = Vector2(2000, scene_parent.get_random_lane()) # Moves the golem to its location.  
-		add_child(new_golem) # Add child to golems. 
+		add_child(new_golem) # Add child to golems.
