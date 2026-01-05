@@ -16,7 +16,7 @@ var grid_location: Dictionary
 
 @export_group("Attacking")
 @export var damage: float = 10 # Damage the spell deals.
-@export var damage_types: Array = ["magic"] # Types of damage the spell deals.
+@export var damage_types: Array[Enums.Element] = [] # Types of damage the spell deals.
 @export var spell_speed: float = 256 # Speed the spell travels at.
 @export var wizard_casting_speed: float = 2 # Speed the wizard can cast spells in seconds.
 @export var spell: PackedScene = preload("res://scenes/spells/attacking_spell.tscn") # The scene that the wizard instantiates on attack. 

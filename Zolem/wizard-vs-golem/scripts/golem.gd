@@ -3,7 +3,7 @@ extends Area2D
 @export_group("Stats")
 @export var speed: float = 64
 @export var health: float = 100
-@export var weaknesses: Array = []
+@export var weaknesses: Array[Enums.Element] = []
 @export var damage: float = 10
 
 @export_group("Randomness")

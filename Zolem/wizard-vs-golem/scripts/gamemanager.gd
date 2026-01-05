@@ -1,12 +1,13 @@
 extends Node # Or whatever your main node is
 
 # We grab our Request Robot (the HTTPRequest node) from the scene tree.
-@onready var cat_fact_request: HTTPRequest = $CatFactRequest
+@onready var cat_fact_request: HTTPRequest = HTTPRequest.new()
 
 # This is the address (URL) of the Magic Mailbox we want to talk to.
 const CAT_FACT_URL = "https://catfact.ninja/fact"
 
 func _ready() -> void:
+	add_child(cat_fact_request)
 	# 1. Connect the Robot's "Done!" signal to our function.
 	# This means when the Robot comes back with the answer, it calls '_on_cat_fact_request_completed'.
 	cat_fact_request.request_completed.connect(_on_cat_fact_request_completed)
